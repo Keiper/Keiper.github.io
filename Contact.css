@@ -1,0 +1,46 @@
+* {
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+}
+header {
+	text-align: center;
+	padding: 10px;
+	border: white solid 3px;
+	color: 	white;
+	margin-bottom: 10px;
+}
+body {
+	background-image: url("https://wallpapertag.com/wallpaper/full/5/a/e/409696-stars-in-space-background-2560x1600-for-pc.jpg");
+}
+footer {
+	text-align: center;
+	border: solid white 2px;\
+	position: relative;
+	margin: 5px;
+	padding: 20px;
+}
+.container {
+	grid-template: repeat(5, 1fr) / repeat(5, 1fr);
+	display: grid;
+	height: 300px;
+	width: 100%;
+}
+.A {
+	grid-area: 1 / 1 / span 10 / span 10;
+	border: solid white 2px;
+	position: relative;
+	text-align: center;
+}
+.home {
+	color: white;
+	text-decoration: none;
+	border: solid white 1px;
+	padding: 5px 8px;
+}
+.home:hover {
+	background-color: whitesmoke;
+	color: #252222;
+}
+.home:active {
+	padding: 8px 11px;
+}
