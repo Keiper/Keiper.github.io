@@ -23,7 +23,7 @@ footer {
 	grid-template: repeat(5, 1fr) / repeat(5, 1fr);
 	display: grid;
 	height: 300px;
-	width: 100%;
+	width: 119em;
 }
 .A {
 	grid-area: 1 / 1 / span 10 / span 10;
@@ -44,3 +44,4 @@ footer {
 .home:active {
 	padding: 8px 11px;
 }
+
