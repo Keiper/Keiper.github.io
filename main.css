@@ -1,5 +1,5 @@
 * {
-	font-family: Arial;
+	font-family: 'Space Mono', monospace;
 }
 body {
 	background-image: url("https://wallpapertag.com/wallpaper/full/5/a/e/409696-stars-in-space-background-2560x1600-for-pc.jpg");
@@ -27,17 +27,25 @@ a {
 	background-color: whitesmoke;
 	color: #252222;
 }
-
+footer {
+	border: solid white 2px;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	margin-top: 3px;
+}
 
 
 /* Containers */
 
 .container {
-	display: grid;
+	display: inline-grid;
 	height: 1000px;
 	width: 118rem;
-	grid-template: repeat(25, 1fr) / repeat(10, 1fr);
-	border: solid white 2px;
+	grid-template: repeat(25, 2.5em) / repeat(10, 11em);
+	border-right: solid white 2px;
+	border-left: solid white 2px;
+	float: center;
 }
 .A {
 	border: solid 2px white;
@@ -45,8 +53,9 @@ a {
 	grid-area: 2 / 2 / span 10 / span 3;
 	background:url(https://2.bp.blogspot.com/-BkqKrk2G6kU/TosqwN7bEZI/AAAAAAAANmg/WN0fmBFoCeM/s1600/Mooie-planeten-achtergronden-hd-planeet-wallpapers-afbeelding-plaatje-36.jpg);
 	background-position: center;
-	background-size: 560px 400px;
+	background-size: 40em 35em;
 	text-align: center;
+	float: center;
 }
 .ontdek {
 	border: solid white 1px;
@@ -63,11 +72,27 @@ a {
 	color: white;
 	background:url(https://images7.alphacoders.com/864/864929.jpg); 
 	background-position: center;
-	background-size: 560px 400px;
+	background-size: 40em 35em;
 	text-align: center;
+	float: center
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1000px), (orientation: portrait) {
-	.container {display: inline;}
+@media only screen and (min-width: 320px) and (max-width: 1000px), {
+	.container {
+		display: block;
+	}
+	.A {
+		width: 30rem;
+		margin-left: 10rem;
+	}
+	.B {
+		width: 30rem;
+		margin-left: 10rem;
+	}
 	}
 
+@media only screen and (min-width: 1000px) and (max-width: 1750px), {
+	.container {
+		display: inline;
+	}
+}
