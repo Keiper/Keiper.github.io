@@ -1,12 +1,12 @@
 * {
-	font-family: 'Space Mono', monospace;
+	font-family: 'Ubuntu', sans-serif;
 }
 body {
 	background-image: url("https://wallpapertag.com/wallpaper/full/5/a/e/409696-stars-in-space-background-2560x1600-for-pc.jpg");
 }
 .container {
 	display: grid;
-	height: 1650px;
+	height: 1500px;
 	width: 118rem;
 	grid-template: repeat(25, 1fr) / repeat(10, 1fr);
 }
@@ -31,7 +31,7 @@ body {
 .ontdekking {
 	border: solid white 2px;
 	margin: 5px;
-	grid-area: 19 / 3 / span 16 / span 6;
+	grid-area: 19 / 3 / span 15 / span 6;
 	color: white;
 }
 .left {
@@ -52,7 +52,7 @@ body {
 	color: white;
 }
 header {
-	font-family: 'Space Mono', monospace;
+	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
 	padding: 20px;
 	border: white solid 3px;
@@ -69,17 +69,18 @@ footer {
 	padding: 30px;
 }
 p {
-	font-family: 'Space Mono', monospace;
+	font-family: 'Ubuntu', sans-serif;
 	padding-left: 5px;
+	margin: 3px;
 }
 a {
-	font-family: 'Space Mono', monospace;
+	font-family: 'Ubuntu', sans-serif;
 	color: white;
 	text-decoration: none;
 }	
 
 h3 {
-	font-family: 'Space Mono', monospace;
+	font-family: 'Ubuntu', sans-serif;
 	padding-left: 5px;
 	text-align: center;
 	border-bottom: solid white 1px;
@@ -91,7 +92,7 @@ h3 {
 	text-decoration: none;
 	float: right;
 	position: relative;
-	font-family: 'Space Mono', monospace;
+	font-family: 'Ubuntu', sans-serif;
 	bottom: 20px;
 }
 #contact:active {
