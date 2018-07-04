@@ -1,0 +1,155 @@
+* {
+	font-family: 'Ubuntu', sans-serif;
+}
+body {
+	background-image: url("https://wallpapertag.com/wallpaper/full/5/a/e/409696-stars-in-space-background-2560x1600-for-pc.jpg");
+}
+header {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	padding: 20px;
+	border: white solid 3px;
+	color: 	white;
+}
+footer {
+	margin: 3px;
+	color: white;
+	text-align: center;
+	border: solid 2px white;	
+	padding: 30px;
+}
+h3 {
+	font-family: 'Ubuntu', sans-serif;
+	padding-left: 5px;
+	text-align: center;
+	border-bottom: solid white 1px;
+	padding-bottom: 3px;
+}
+a {
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	text-decoration: none;
+}
+p {
+	font-family: 'Ubuntu', sans-serif;
+	padding-left: 5px;
+	margin: 3px;
+}	
+footer {
+	margin: 3px;
+	color: white;
+	text-align: center;
+	border: solid 2px white;	
+	padding: 30px;
+}
+#contact {
+	border: 1px solid white;
+	padding: 5px 8px;
+	text-decoration: none;
+	float: right;
+	position: relative;
+	font-family: 'Ubuntu', sans-serif;
+	bottom: 20px;
+}
+#contact:active {
+	padding: 8px 11px;
+}
+#contact:hover {
+	background-color: whitesmoke;
+	color: #252222;
+	border: solid black 1px;
+}
+.home {
+	border: solid white 1px;
+	padding: 2px 8px;
+	margin: 0;
+}
+.home:active {
+	padding: 5px 11px;
+}
+.home:hover {
+	background-color: whitesmoke;
+	color: #252222;
+}
+
+
+
+/* Containers */
+
+
+.container {
+	display: grid;
+	height: 1500px;
+	width: 118rem;
+	grid-template: repeat(35, 1fr) / repeat(10, 1fr);
+}
+.A {
+	border: solid white 2px;
+	margin: 5px;
+	grid-area: 1 / 1 / span 3 / span 6;
+	color: white;
+}
+.B {
+	border: solid white 2px;
+	margin: 5px;
+	grid-area: 5 / 1 / span 7 / span 6;
+	color: white;
+}
+.C {
+	border: solid white 2px;
+	margin: 5px;
+	grid-area: 12 / 1 / span 4 / span 6;
+	color: white;
+}
+.D {
+	border: solid white 2px;
+	margin: 5px;
+	grid-area: 16 / 1 / span 5 / span 6;
+	color: white;
+}
+.E {
+	border: solid white 2px;
+	margin: 5px;
+	grid-area: 21 / 1 / span 5 / span 6;
+	color: white;
+}
+.F {
+	border: solid white 2px;
+	margin: 5px;
+	grid-area: 26 / 1 / span 11 / span 6;
+	color: white;
+}
+.related {
+	border: solid white 2px;
+	margin: 5px;
+	grid-area: 5 / 10 / span 4 / span 1;
+	color: white;
+}
+.bron {
+	border: solid white 2px;
+	margin: 5px;
+	grid-area: 1 / 10 / span 4 / span 1;
+	color: white;
+}
+.a {
+	border-bottom: solid 1px white;
+	margin: 3px;
+}
+#image1 {
+	border: solid white 2px;
+	margin: 5px;
+	grid-area: 15 / 8 / span 8 / span 3;
+	color: white;
+	background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Solar_System_size_to_scale_nl.svg/600px-Solar_System_size_to_scale_nl.svg.png);
+	background-position: center;
+	text-align: right;
+}
+#image2 {
+	border: solid white 2px;
+	margin: 5px;
+	grid-area: 27 / 8 / span 8 / span 3;
+	color: white;
+	background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Zonnestelsel_108.540au.png/600px-Zonnestelsel_108.540au.png);
+	background-position: center;
+	text-align: right;
+}

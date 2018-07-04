@@ -13,30 +13,30 @@ body {
 .opbouw {
 	border: solid white 2px;
 	margin: 5px;
-	grid-area: 1 / 3 / span 7 / span 6;
+	grid-area: 1 / 1 / span 7 / span 6;
 	color: white;
 }
 .botsing {
 	border: solid white 2px;
 	margin: 5px;
-	grid-area: 9 / 3 / span 3 / span 6;
+	grid-area: 9 / 1 / span 3 / span 6;
 	color: white;
 }
 .naamgeving {
 	border: solid white 2px;
 	margin: 5px;
-	grid-area: 13 / 3 / span 5 / span 6;
+	grid-area: 13 / 1 / span 5 / span 6;
 	color: white;
 }
 .ontdekking {
 	border: solid white 2px;
 	margin: 5px;
-	grid-area: 19 / 3 / span 15 / span 6;
+	grid-area: 19 / 1 / span 15 / span 6;
 	color: white;
 }
 .left {
 	border: solid white 2px;
-	grid-area: 1 / 1 / span 14 / span 2;
+	grid-area: 8 / 9 / span 14 / span 2;
 	margin: 5px;
 }
 .bron {
@@ -101,6 +101,7 @@ h3 {
 #contact:hover {
 	background-color: whitesmoke;
 	color: #252222;
+	border: solid black 1px;
 }
 .as {
 	border-bottom: 1px solid white;

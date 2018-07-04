@@ -51,9 +51,9 @@ footer {
 	border: solid 2px white;
 	color: white;
 	grid-area: 2 / 2 / span 10 / span 3;
-	background:url(https://2.bp.blogspot.com/-BkqKrk2G6kU/TosqwN7bEZI/AAAAAAAANmg/WN0fmBFoCeM/s1600/Mooie-planeten-achtergronden-hd-planeet-wallpapers-afbeelding-plaatje-36.jpg);
+	background:url(https://wallpaper-house.com/data/out/5/wallpaper2you_77248.jpg);
 	background-position: center;
-	background-size: 40em 35em;
+	background-size: 35em 25em;
 	text-align: center;
 	float: center;
 }
@@ -64,6 +64,10 @@ footer {
 .ontdek:hover {
 	background-color: whitesmoke;
 	color: #252222;
+	border: solid black 1px;
+}
+.ontdek:active {
+	padding: 6px;
 }
 
 .B {
@@ -76,6 +80,8 @@ footer {
 	text-align: center;
 	float: center
 }
+
+/* Responsive Design */
 
 @media only screen and (min-width: 320px) and (max-width: 1000px), {
 	.container {
